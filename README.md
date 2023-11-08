@@ -44,6 +44,26 @@ EXTRANET: Fornecedores, clientes e colaboradores
 
 INTERNET: O mundo
 
+Camadas TCP/IP - Protocolo de enlace de dados - Criado para especificar como os computadores transferem dados uns aos outros
+
+4 camadas do modelo TCP/IP
+
+IP - Parte que obtém o endereço para o qual os dados serão enviados
+
+TCP - Responsável pelo envio dos dados assim que o endereço for encontrado
+
+Camada de enlace de dados - É aquela que lida com as partes físicas de envio e recebimento de dados usando cabo Ethernet, rede sem fio e etc.
+
+Camada de rede - Realiza a comunicação entre máquinas vizinhas através do protocolo IP
+
+Camada de transporte - Fornece uma conexão confiável entre dois dispositivos. Divide os dados em pacotes, reconhece os pacotes que recebeu e garante que o outro dispositivo reconheça os pacotes que recebeu
+
+Cama da de aplicativo - Reune os protocolos que fornecem serviços de comunicação ao sistema e ao usuário
+
+
+
+
+
 
 
 
