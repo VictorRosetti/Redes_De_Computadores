@@ -104,6 +104,33 @@ Calcular mascaras de sub rede
 
 A cada 3 digitos da mascara, temos uma parte de oendereço de host 
 
+192 . 168 . 0 . 1
+
+Cada parte com 8 bits de 0 a 255
+
+para calcular basta usar a elevação a 2
+
+2^0 2¹ 2² 2³ 2³ 2^4 2^5 2^6 2^7 
+
+Começando a somar da esquerda para a direita, pulando numeros e necessário
+
+Ex:
+
+192. 168.0.0
+
+Para calcular 192 deve utilizar a soma de 128 + 64 
+Sendo assim os bits utilizados foram os dois primeiros, então o número 192 em binarios seria: 11000000
+
+Para calcular 168 deve utilizar a soma de 128(primeiro bit) + 32(terceiro bit) + 8(quinto bit)
+Sendo assim os bits utilizados foram o primeiro, terceiro e quinto então o número 168 em binarios seria: 10101000
+
+Para 0 todos os 8 bits são 0
+
+Para 1 utilizará apenas o ultimo bit: 00000001
+
+As mascaras de rede são utilizadas não apenas para identificção mas para ampliar a utilização da rede
+
+
 
 
 
