@@ -58,7 +58,53 @@ Camada de rede - Realiza a comunicação entre máquinas vizinhas através do pr
 
 Camada de transporte - Fornece uma conexão confiável entre dois dispositivos. Divide os dados em pacotes, reconhece os pacotes que recebeu e garante que o outro dispositivo reconheça os pacotes que recebeu
 
-Cama da de aplicativo - Reune os protocolos que fornecem serviços de comunicação ao sistema e ao usuário
+Camada de aplicativo - Reune os protocolos que fornecem serviços de comunicação ao sistema e ao usuário
+
+Diferentes tipos de IP
+
+Hoje em dia há dois tipos diferentes de IP: IPv4 e IPv6
+
+IPs de dispositivos pessoais têm 4 tipos: privados, público, dinâmicos e estáticos
+
+IP privado - Utilizado para se comunicar dentro de suas redes locais
+
+IP público - Utilizado para se comunicar através de suas redes locais
+
+Há dois tipos de endereços de IP público:
+
+Dinâmico - Aquele que o provedor de internet oferece aos clientes
+
+Estático - O endereço de IP é sempre fixo, a menos que o serviço de administração decida alterá-lo
+
+IPv4 - Internet Protocol Version 4
+
+Representada por um conjunto numérico de 32 bits dividos em 4 partes e separado por pontos.
+
+O valor de cada conjunto varia entre 0 e 255
+
+Ex: 25.42.25.175
+
+IPv6 
+
+São sequencias numéricas de 128 bits
+
+São compostos por 8 conjuntos de dígitos hexadecimais de 16 bits separados por 2 pontos
+
+É escrito com letras de A à F e de 0 à 9
+
+Máscara de rede
+
+Principal função é avisar ao roteador que as mensagens têm endereços diferentes, possibilitando que o identificador da rede e do host sejam identificados
+
+A mascara de rede tem 32 bits tendo como finalidade mascarar um endereço IP
+
+Todo endereço IP tem uma mascara correspondente para identificar qual parte é da rede e qual parte é do host
+
+Calcular mascaras de sub rede
+
+A cada 3 digitos da mascara, temos uma parte de oendereço de host 
+
+
 
 
 
